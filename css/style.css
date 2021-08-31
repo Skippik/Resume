@@ -477,6 +477,13 @@ body {
   text-align: center;
   margin: 0;
   margin-top: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #545454;
 }
 
 .icon_skils .icons {
