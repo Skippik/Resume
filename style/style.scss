@@ -1,0 +1,33 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(180deg, 
+    rgba(3, 56, 244, 0.71) 0%, 
+    rgba(224, 37, 206, 0.79) 93.75%) center no-repeat;
+}
+
+.castom_container {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_education {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+@import './_aboutMe';
+@import './_education';

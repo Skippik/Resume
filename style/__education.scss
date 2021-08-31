@@ -1,0 +1,119 @@
+.education {
+    width: 296px;
+    height: 950px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+
+
+.education_block {
+    display: flex;
+    align-items:center;
+    width: 294px;
+    height: 24px;
+    margin-top: 19px;
+        & .experience {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 125px;
+        height: 24px;
+        background: #545454;
+        border-radius: 5px;
+            & h2 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 18px;
+                color: #FFFFFF;
+                text-align: center;
+                margin: 0;
+            }
+    }
+    & hr {
+        width: 141px;
+        height: 1px;
+        border: 1px solid #545454;
+    }
+}
+
+.experience_text {
+    margin-top: 12px;
+    & h3 {
+        margin: 0;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #343434;
+    }
+    & h4 {
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #343434;
+        margin: 0;
+    }
+    & h5 {
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        color: #73808D;
+    }
+    & p {
+        font-family: Calibri;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 14px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    & hr {
+        height: 1px;
+        border: 1px solid #545454;
+    }
+    & a {
+        text-decoration: none;
+        color: #343434;
+    }
+}
+
+.icon_skils {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    & .main_icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        & p {
+            text-align: center;
+            margin: 0;
+            margin-top: 5px;
+        }
+    }
+    & .icons {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        width: 44px;
+        height: 44px;
+        background: rgba(196, 196, 196, 0.4);
+        border-radius: 50%;
+    }
+    & img {
+        width: 25px;
+        height: 30px;
+    }
+}

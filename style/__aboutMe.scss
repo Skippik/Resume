@@ -1,0 +1,242 @@
+.aboutMe {
+    width: 296px;
+    height: 950px;
+    background: rgba(196, 196, 196, 0.3);
+    border-radius: 10px;
+}
+
+.aboutMe_container {
+    display: flex;
+    justify-content: center;
+}
+
+.my_name {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.surname {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #CECACA;
+    text-align: center;
+}
+
+.name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.profession {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    color: #CECACA;
+}
+
+.photo {
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+    &_personal {
+        width: auto;
+        height: 100%;
+        margin: 0 auto;
+        background: url(../img/photo.png) center;
+        border-radius: 93px;
+    }
+}
+
+
+.email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 38px;
+}
+
+.email_main {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.phone {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 38px;
+}
+
+.phone_main {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.web_site {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 38px;
+}
+
+.web_main {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.social_networks {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 38px;
+}
+
+.socia_main {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.socia_logo {
+    width: 24px;
+    height: 24px;
+}
+
+.Industry_knowledge {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    min-height: 250px;
+    & h5 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    & ul li {
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FAFAFA;
+    }
+    & ul li a {
+        padding-left: 5px;
+        color: #FAFAFA;
+        font-size: 12px;
+    }
+    & ul li a:hover {
+        color: black;
+    }
+}
+
+.languages {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    height: 38px;
+    & p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0;
+            }
+}
+
+.summary {
+    margin-top: 10px;
+    background: rgba(196, 196, 196, 0.35);
+    border-radius: 10px;
+    width: 260px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    & h5 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    & p {
+        padding: 0 5px 0 5px;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        
+    }
+}
