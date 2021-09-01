@@ -4,8 +4,7 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 56, 244, 0.71)), color-stop(93.75%, rgba(224, 37, 206, 0.79))) center no-repeat;
-  background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%) center no-repeat;
+  background: #545769;
 }
 
 .castom_container {
@@ -42,8 +41,8 @@ body {
 
 .aboutMe {
   width: 296px;
-  height: 950px;
-  background: rgba(196, 196, 196, 0.3);
+  height: 925px;
+  background: #78B5E3;
   border-radius: 10px;
 }
 
@@ -69,8 +68,9 @@ body {
   font-weight: normal;
   font-size: 25px;
   line-height: 30px;
-  color: #CECACA;
+  color: #545769;
   text-align: center;
+  margin: 0;
 }
 
 .name {
@@ -81,6 +81,7 @@ body {
   line-height: 43px;
   color: #FFFFFF;
   text-align: center;
+  margin: 0;
 }
 
 .profession {
@@ -89,7 +90,8 @@ body {
   font-weight: bold;
   font-size: 13px;
   line-height: 18px;
-  color: #CECACA;
+  color: #545769;
+  text-align: center;
 }
 
 .photo {
@@ -240,7 +242,7 @@ body {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
   width: 260px;
-  min-height: 250px;
+  min-height: 220px;
 }
 
 .Industry_knowledge h5 {
@@ -303,7 +305,7 @@ body {
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
   width: 260px;
-  min-height: 250px;
+  height: 305px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,7 +344,7 @@ body {
 
 .education {
   width: 296px;
-  height: 950px;
+  height: 925px;
   background: #FFFFFF;
   border-radius: 10px;
   margin-left: 6px;
