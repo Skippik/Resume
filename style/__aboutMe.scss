@@ -75,6 +75,8 @@
     border-radius: 10px;
     width: 260px;
     height: 38px;
+    transition: transform 0.5s, 
+    background 0.5s;
 }
 
 .email_main {
@@ -96,6 +98,8 @@
     border-radius: 10px;
     width: 260px;
     height: 38px;
+    transition: transform 0.5s, 
+    background 0.5s;
 }
 
 .phone_main {
@@ -117,6 +121,8 @@
     border-radius: 10px;
     width: 260px;
     height: 38px;
+    transition: transform 0.5s, 
+    background 0.5s;
 }
 
 .web_main {
@@ -138,6 +144,20 @@
     border-radius: 10px;
     width: 260px;
     height: 38px;
+    & ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items:center;
+        & li {
+            padding-right: 25px;
+        }
+        & li:last-child {
+            padding-right: 0;
+        }
+    }
 }
 
 .socia_main {
@@ -153,6 +173,7 @@
 .socia_logo {
     width: 24px;
     height: 24px;
+    transition: transform 0.5s;
 }
 
 .Industry_knowledge {

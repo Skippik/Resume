@@ -1,0 +1,147 @@
+.email:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #78B5E3;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.phone:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #78B5E3;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.web_site:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #78B5E3;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.social_networks ul li:hover span {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    transition: visibility 0.5s;
+}
+
+.socia_logo:hover {
+    opacity: 1;
+    transform: scale(1.6);
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.social_networks ul li .instagram {
+    position: absolute;
+    top: 270px;
+    left: 675px;
+    transform: translateX(-50%) translateY(-20px);
+    width: 120px;
+    height: 24px;  
+    line-height: 24px;
+    text-align: center;
+    background: #545769;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .skype {
+    position: absolute;
+    top: 270px;
+    left: 725px;
+    transform: translateX(-50%) translateY(-20px);
+    width: 120px;
+    height: 24px;  
+    line-height: 24px;
+    text-align: center;
+    background: #545769;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .telegram {
+    position: absolute;
+    top: 270px;
+    left: 775px;
+    transform: translateX(-50%) translateY(-20px);
+    width: 120px;
+    height: 24px;  
+    line-height: 24px;
+    text-align: center;
+    background: #545769;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .viber {
+    position: absolute;
+    top: 270px;
+    left: 823px;
+    transform: translateX(-50%) translateY(-20px);
+    width: 70px;
+    height: 24px;  
+    line-height: 24px;
+    text-align: center;
+    background: #545769;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .VK {
+    position: absolute;
+    top: 270px;
+    left: 873px;
+    transform: translateX(-50%) translateY(-20px);
+    width: 60px;
+    height: 24px;  
+    line-height: 24px;
+    text-align: center;
+    background: #545769;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+.social_networks span::before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background: #545769;
+    z-index: -1;
+}
+
+.social_networks span:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+}

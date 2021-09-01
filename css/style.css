@@ -130,6 +130,10 @@ body {
   border-radius: 10px;
   width: 260px;
   height: 38px;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
 }
 
 .email_main {
@@ -156,6 +160,10 @@ body {
   border-radius: 10px;
   width: 260px;
   height: 38px;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
 }
 
 .phone_main {
@@ -182,6 +190,10 @@ body {
   border-radius: 10px;
   width: 260px;
   height: 38px;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
 }
 
 .web_main {
@@ -210,6 +222,28 @@ body {
   height: 38px;
 }
 
+.social_networks ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social_networks ul li {
+  padding-right: 25px;
+}
+
+.social_networks ul li:last-child {
+  padding-right: 0;
+}
+
 .socia_main {
   font-family: Fira Sans;
   font-style: normal;
@@ -223,6 +257,10 @@ body {
 .socia_logo {
   width: 24px;
   height: 24px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .Industry_knowledge {
@@ -511,5 +549,179 @@ body {
 .icon_skils img {
   width: 25px;
   height: 30px;
+}
+
+.email:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #78B5E3;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
+}
+
+.phone:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #78B5E3;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
+}
+
+.web_site:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background: #78B5E3;
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
+}
+
+.social_networks ul li:hover span {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+  -webkit-transition: visibility 0.5s;
+  transition: visibility 0.5s;
+}
+
+.socia_logo:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.6);
+          transform: scale(1.6);
+  -webkit-transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: background 0.5s,  -webkit-transform 0.5s;
+  transition: transform 0.5s,  background 0.5s;
+  transition: transform 0.5s,  background 0.5s,  -webkit-transform 0.5s;
+}
+
+.social_networks ul li .instagram {
+  position: absolute;
+  top: 270px;
+  left: 675px;
+  -webkit-transform: translateX(-50%) translateY(-20px);
+          transform: translateX(-50%) translateY(-20px);
+  width: 120px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #545769;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .skype {
+  position: absolute;
+  top: 270px;
+  left: 725px;
+  -webkit-transform: translateX(-50%) translateY(-20px);
+          transform: translateX(-50%) translateY(-20px);
+  width: 120px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #545769;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .telegram {
+  position: absolute;
+  top: 270px;
+  left: 775px;
+  -webkit-transform: translateX(-50%) translateY(-20px);
+          transform: translateX(-50%) translateY(-20px);
+  width: 120px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #545769;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .viber {
+  position: absolute;
+  top: 270px;
+  left: 823px;
+  -webkit-transform: translateX(-50%) translateY(-20px);
+          transform: translateX(-50%) translateY(-20px);
+  width: 70px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #545769;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_networks ul li .VK {
+  position: absolute;
+  top: 270px;
+  left: 873px;
+  -webkit-transform: translateX(-50%) translateY(-20px);
+          transform: translateX(-50%) translateY(-20px);
+  width: 60px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: #545769;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_networks span::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  -webkit-transform: rotate(45deg) translateX(-50%);
+          transform: rotate(45deg) translateX(-50%);
+  width: 10px;
+  height: 10px;
+  background: #545769;
+  z-index: -1;
+}
+
+.social_networks span:hover {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
 }
 /*# sourceMappingURL=style.css.map */
