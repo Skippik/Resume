@@ -3,9 +3,9 @@ const buttonRu = document.getElementById('Ru');
 
 
 buttonEn.addEventListener('click', function() {
-    document.location.href = "../language/En.html";
+    document.location.href = "https://skippik.github.io/Resume//language/En.html";
 })
 
 buttonRu.addEventListener('click', function() {
-    document.location.href = "../language/Ru.html";
+    document.location.href = "https://skippik.github.io/Resume//language/Ru.html";
 })
