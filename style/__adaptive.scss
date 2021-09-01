@@ -1,4 +1,7 @@
 @media (max-width: 685px) {
+    body {
+        width: 300px;
+    }
     .castom_container {
         display: flex;
         flex-direction: column;
@@ -9,5 +12,14 @@
     .education {
         margin: 0;
         margin-top: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutMe {
+        width: 350px;
+    }
+    .education {
+        width: 350px;
     }
 }
