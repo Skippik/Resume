@@ -1,9 +1,15 @@
 .education {
-    width: 296px;
+    width: 400px;
     height: 925px;
     background: #FFFFFF;
     border-radius: 10px;
     margin-left: 6px;
+    border: 2px solid #78B5E3;
+    background-size: cover;
+    box-shadow: 0px -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0px -15px 15px rgba(255, 255, 255, 0.05),
+    0px 15px 15px rgba(112, 101, 101, 0.63),
+    inset 0px 15px 15px rgba(112, 101, 101, 0.63);
 }
 
 
@@ -72,7 +78,7 @@
         font-family: Calibri;
         font-style: normal;
         font-weight: normal;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 14px;
         color: rgba(0, 0, 0, 0.8);
     }
@@ -103,7 +109,7 @@
             font-family: Montserrat;
             font-style: normal;
             font-weight: 600;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 18px;
             text-align: center;
             color: #545454;
