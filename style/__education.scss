@@ -83,12 +83,27 @@
         color: rgba(0, 0, 0, 0.8);
     }
     & hr {
+        margin: 0;
+        margin-bottom: 15px;
         height: 1px;
         border: 1px solid #545454;
     }
     & a {
         text-decoration: none;
         color: #343434;
+    }
+    & .rs_school {
+        display: flex;
+        justify-content: space-between;
+        & .main_icons {
+            margin-right: 20px;
+        }
+    }
+    & .rss {
+        width: 44px;
+        height: 44px;
+        background: rgba(196, 196, 196, 0.4);
+        border-radius: 50%;
     }
 }
 

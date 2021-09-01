@@ -183,7 +183,7 @@
 }
 
 .Industry_knowledge {
-    margin-top: 13px;
+    margin-top: 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -219,32 +219,50 @@
     }
 }
 
-.languages {
-    margin-top: 10px;
+.my_projects {
+    margin-top: 5px;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     background: rgba(196, 196, 196, 0.35);
     border-radius: 10px;
     width: 300px;
-    height: 38px;
-    & p {
+    height: 60px;
+    & ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items:center;
+        & li {
+            padding-bottom: 5px;
+            padding-right: 10px;
+            margin: 0 auto;
+        }
+        & li:last-child {
+            padding-right: 0;
+        }
+    }
+    & h5 {
         font-family: Montserrat;
         font-style: normal;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 15px;
         line-height: 18px;
         color: #FFFFFF;
         margin: 0;
-            }
+    }
+
 }
 
 .summary {
-    margin-top: 10px;
+    margin-top: 6px;
     background: rgba(196, 196, 196, 0.35);
     border-radius: 10px;
     width: 300px;
-    height: 305px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items:center;
@@ -259,7 +277,9 @@
         margin: 0;
     }
     & p {
-        padding: 0 5px 0 5px;
+        margin: 0;
+        padding-left: 5px;
+        padding-right: 5px;
         font-family: Fira Sans;
         font-style: normal;
         font-weight: normal;

@@ -268,7 +268,7 @@ body {
 }
 
 .Industry_knowledge {
-  margin-top: 13px;
+  margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -316,38 +316,66 @@ body {
   color: black;
 }
 
-.languages {
-  margin-top: 10px;
+.my_projects {
+  margin-top: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
   width: 300px;
-  height: 38px;
+  height: 60px;
 }
 
-.languages p {
+.my_projects ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.my_projects ul li {
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.my_projects ul li:last-child {
+  padding-right: 0;
+}
+
+.my_projects h5 {
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
   color: #FFFFFF;
   margin: 0;
 }
 
 .summary {
-  margin-top: 10px;
+  margin-top: 6px;
   background: rgba(196, 196, 196, 0.35);
   border-radius: 10px;
   width: 300px;
-  height: 305px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -373,7 +401,9 @@ body {
 }
 
 .summary p {
-  padding: 0 5px 0 5px;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   font-family: Fira Sans;
   font-style: normal;
   font-weight: normal;
@@ -482,6 +512,8 @@ body {
 }
 
 .experience_text hr {
+  margin: 0;
+  margin-bottom: 15px;
   height: 1px;
   border: 1px solid #545454;
 }
@@ -489,6 +521,26 @@ body {
 .experience_text a {
   text-decoration: none;
   color: #343434;
+}
+
+.experience_text .rs_school {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.experience_text .rs_school .main_icons {
+  margin-right: 20px;
+}
+
+.experience_text .rss {
+  width: 44px;
+  height: 44px;
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 50%;
 }
 
 .icon_skils {
@@ -613,7 +665,7 @@ body {
 .social_networks ul li .instagram {
   position: absolute;
   top: 270px;
-  left: 683px;
+  left: 517px;
   -webkit-transform: translateX(-50%) translateY(-20px);
           transform: translateX(-50%) translateY(-20px);
   width: 120px;
@@ -633,7 +685,7 @@ body {
 .social_networks ul li .skype {
   position: absolute;
   top: 270px;
-  left: 738px;
+  left: 572px;
   -webkit-transform: translateX(-50%) translateY(-20px);
           transform: translateX(-50%) translateY(-20px);
   width: 120px;
@@ -653,7 +705,7 @@ body {
 .social_networks ul li .telegram {
   position: absolute;
   top: 270px;
-  left: 798px;
+  left: 633px;
   -webkit-transform: translateX(-50%) translateY(-20px);
           transform: translateX(-50%) translateY(-20px);
   width: 120px;
@@ -673,7 +725,7 @@ body {
 .social_networks ul li .viber {
   position: absolute;
   top: 270px;
-  left: 853px;
+  left: 686px;
   -webkit-transform: translateX(-50%) translateY(-20px);
           transform: translateX(-50%) translateY(-20px);
   width: 70px;
@@ -693,7 +745,7 @@ body {
 .social_networks ul li .VK {
   position: absolute;
   top: 270px;
-  left: 910px;
+  left: 742px;
   -webkit-transform: translateX(-50%) translateY(-20px);
           transform: translateX(-50%) translateY(-20px);
   width: 60px;

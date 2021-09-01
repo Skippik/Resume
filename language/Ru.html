@@ -14,7 +14,7 @@
     <script defer src="../js/bootstrap.min.js"></script>
     <title>Волков Евгений-CV</title>
 </head>
-<body class="CV castom_container">
+<body class="CV castom_container" id="print">
     <section class="aboutMe">
         <div class="container container_center">
             <div class="my_name">
@@ -89,9 +89,58 @@
                     <li>Linux</li>
                 </ul>
             </div>
-            <div class="languages">
-                <p>English</p>
-                <img src="../icons/circle.svg" alt="">
+            <div class="my_projects">
+                <h5>Мои проекты</h5>
+                <div class="list_projects">
+                    <ul>
+                        <li>
+                            <a href="https://skippik.github.io/JobHanter/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="JobHanter" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://skippik.github.io/heartRateMonitor/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="heartRateMonitor" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://skippik.github.io/venom_2/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="venom_2" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://skippik.github.io/RACE/" 
+                            target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="RACE" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://skippik.github.io/Math-Game-VitebsEnergo/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="Math-Game" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://skippik.github.io/TicTac/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="TicTac" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://rolling-scopes-school.github.io/skippik-JSFE2021Q1/museum/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="museum" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://rolling-scopes-school.github.io/skippik-JSFE2021Q1/custom-video-player/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="custom-video-player" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://rolling-scopes-school.github.io/skippik-JSFE2021Q1/js-clock/" target="_blank" class="socia_main">
+                                <img src="../icons/website.svg" alt="js-clock" class="socia_logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="summary">
                 <h5>О себе</h5>
@@ -116,7 +165,7 @@
                 <h3 class="company">НПП "Белкотломаш" ООО</h3>
                 <h4>Системный администратор</h4>
                 <h5>2012-2021 год</h5>
-                <p>Создавалась с нуля вся сетевая архитектура предприятия, занималась закупкой и обслуживанием ПК пользователей и другой периферии.</p>
+                <p>Создавалась с нуля вся сетевая архитектура предприятия, занимался закупкой и обслуживанием ПК пользователей и другой периферии.</p>
                 <hr>
                 <h3 class="company">ООО "БелБойлерТрейд" и <br> НПП "Белкотломаш" ООО</h3>
                 <h4>Системный администратор</h4>
@@ -143,9 +192,18 @@
                 <h4><a href="https://www.codecademy.com/users/6086549107/achievements">CodeAcademy</a></h4>
                 <h5>2020 год</h5>
                 <hr>
-                <h3 class="company">RsSchool</h3>
-                <h4><a href="https://rs.school/js-stage0/">RsSchool stage0</a></h4>
-                <h5>2021 год</h5>
+                <div class="rs_school">
+                    <div class="rs_school-block">
+                        <h3 class="company">RsSchool</h3>
+                        <h4><a href="https://rs.school/js-stage0/">RsSchool stage0</a></h4>
+                        <h5>2021 год</h5>
+                    </div>
+                    <div class="main_icons">
+                        <div class="icons">
+                            <img src="../icons/rs_school_js.svg" alt="css3" class="rss">
+                        </div>
+                    </div>
+                </div>
                 <hr>
                 <!-- <div class="education_block">
                     <div class="experience">
@@ -176,6 +234,7 @@
                         <div class="icons">
                             <img src="../icons/css3.svg" alt="css3" class="css">
                         </div>
+
                         <!-- <p>CSS 3</p> -->
                     </div>
                 </div>
