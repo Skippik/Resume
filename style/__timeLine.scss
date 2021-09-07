@@ -2,11 +2,13 @@
  * Тайм-Лайн
  * --------------------------------------------- */
 .timeline {
+    z-index: 1;
     list-style: none;
     padding: 10px 0;
     position: relative;
     font-weight: 300;
 }
+
 .timeline:before {
     top: 0;
     bottom: 0;
@@ -16,6 +18,10 @@
     background: #091921;
     left: 50%;
     margin-left: -1.5px;
+}
+
+.timeline-panel {
+    z-index: 1;
 }
 .timeline > li {
     margin-bottom: 20px;
@@ -39,6 +45,7 @@
     clear: both;
 }
 .timeline > li > .timeline-panel {
+    z-index: 1;
     width: calc(100% - 25px);
     width: -moz-calc(100% - 25px);
     width: -webkit-calc(100% - 25px);
@@ -140,8 +147,10 @@
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
+        z-index: 1;
     }
     ul.timeline > li {
+        z-index: 1;
         margin-bottom: 0px;
         position: relative;
         width:100%;

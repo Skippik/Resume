@@ -1,0 +1,88 @@
+@media (max-width: 1000px) {
+    .Skills {
+        width: 100%;
+        height: 600px;
+    }
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content:" ";
+        width: 2px;
+        // height: 320px;
+        background: #091921;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .industry__list {
+        display: flex;
+        flex-direction: column;
+        li::before {
+            content: "";
+        }
+    }
+}
+
+
+@media (max-width: 767px) {
+    .about-me {
+        margin-bottom: 20px;
+        justify-content: flex-start;
+        padding-top: 50px;
+    }
+    .experience {
+        height: 600px;
+    }
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content:" ";
+        width: 2px;
+        background: #091921;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+    .education {
+        height: 700px;
+    }
+
+    .about-me {
+        margin-bottom: 30px;
+    }
+
+    .nav__menu {
+        display: none;
+    }
+    .main__wrapper {
+        flex-direction: column;
+        & img {
+            margin-bottom: 10px;
+        }
+    }
+
+    .wrapper__profession p {
+        text-align: center;
+    }
+
+    .ru-en {
+        justify-content: center;
+        align-items: center;
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 450px) {
+    .about-me {
+        padding-top: 10px;
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .experience{
+        height: 700px;
+    }
+}

@@ -15,7 +15,7 @@
     <script defer src="./js/main.js"></script>
     <title>Evgeny Volkov-CV</title>
 </head>
-<body>
+<body id="body">
     <!-- <a class="back_to_top" title="Наверх">↑</a> -->
     <a href="#" id="toTop">
         <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -27,28 +27,49 @@
             </g>
         </svg>
     </a>
+    <div class="menu__body" id="menu-burger">
+        <ul>
+            <li>
+                <a id="burgerMenu" href="#main">Home</a>
+            </li>
+            <li>
+                <a id="burgerMenu" href="#aboutMe">About me</a>
+            </li>
+            <li>
+                <a id="burgerMenu" href="#skills">Skills/Portfolio</a>
+            </li>
+            <li>
+                <a id="burgerMenu" href="#experience">Experience</a>
+            </li>
+            <li>
+                <a id="burgerMenu" href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </div>
     <!-- Блок хедер меню! -->
-    <header class="heder" id="header">
+    <header class="header" id="header">
         <nav class="nav container">
+            <div class="menu__icon" id="menu-icon">
+                <span></span>
+            </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#main" class="nav__link btn btn-three">Home</a>
+                        <a data-goto="#main" href="#" class="nav__link btn btn-three active">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#aboutMe" class="nav__link btn btn-three">About me</a>
+                        <a data-goto="#aboutMe" href="#" class="nav__link btn btn-three">About me</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#skills" class="nav__link btn btn-three">Skills/Portfolio</a>
+                        <a data-goto="#skills" href="#" class="nav__link btn btn-three">Skills/Portfolio</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#experience" class="nav__link btn btn-three">Experience</a>
+                        <a data-goto="#experience" href="#" class="nav__link btn btn-three">Experience</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contacts" class="nav__link btn btn-three">Contacts</a>
+                        <a data-goto="#contacts" href="#" class="nav__link btn btn-three">Contacts</a>
                     </li>
                 </ul>
-                <hr>
             </div>
         </nav>
     </header>

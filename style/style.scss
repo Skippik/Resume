@@ -26,7 +26,7 @@ $textFontBold: Gilroy-Bold;
 
 * {
     font-family: 'Khula', sans-serif;
-	scroll-behavior: smooth;
+	// scroll-behavior: smooth;
 }
 
 h1 {
@@ -71,3 +71,5 @@ li {
 @import './_education';
 @import './_timeLine';
 @import './_footer';
+@import './_adaptiv';
+@import './_burger-menu';
