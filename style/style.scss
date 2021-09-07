@@ -1,36 +1,73 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+$tetxColor: #070707;
+$containerColor: #F6F6F6;
+$textFont: Gilroy-Medium;
+$textFontBold: Gilroy-Bold;
 
 
 * {
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Khula', sans-serif;
+	scroll-behavior: smooth;
 }
 
-body {
-    background: #545769
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
-.castom_container {
-    max-width: 650px;
-    margin: 0 auto;
-    display: flex;
+h2 {
+	font-family: $textFontBold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: $tetxColor;
+    margin: 0;
+    padding: 0;
 }
 
-.container_center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+p {
+    margin: 0;
+    padding: 0;
 }
 
-.container_education {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+li {
+	font-family: $textFont;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: $tetxColor;
+    margin: 0;
+    padding: 0;
 }
 
 
-@import './_aboutMe';
+
+
+@import './_button';
+@import './_nav-menu';
+@import './_main-profession';
+@import './_about-me';
+@import './_skills';
+@import './_experience';
 @import './_education';
-@import './_animation';
-@import './_mainMenu';
-@import './_adaptive';
+@import './_timeLine';
+@import './_footer';

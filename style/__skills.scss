@@ -1,0 +1,98 @@
+.Skills {
+    height: 506px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        & h2 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.skills__logo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        & li {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s;
+        }
+        & li:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s;
+        }
+    }
+}
+
+.projects {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    & ul {
+        margin: 0;
+        padding: 15px;
+        list-style: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & li {
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        & li:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s;
+        }
+    }
+}
+
+.industry__title {
+    margin: 0;
+}
+
+.industry {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+    & ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    & li::before {
+        content: '|';
+        padding-right: 5px;
+
+    }
+    & li:first-child::before {
+        content: '';
+    }
+}

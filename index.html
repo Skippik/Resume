@@ -1,24 +1,363 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./icons/laptop.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icons/rs_school_js.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap-reboot.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/bootstrap.min.js"></script>
     <script defer src="./js/main.js"></script>
     <title>Evgeny Volkov-CV</title>
 </head>
-<body class="main CV castom_container">
-    <div class="main_block">
-        <h1>Пожалуйста выберите язык</h1>
-        <h1 class="en">Please select a language</h1>
-        <div class="button">
-            <button id="Ru" type="button" class="btn btn-info btn-lg ru">Русский</button>
-            <button id="En" type="button" class="btn btn-info btn-lg">English</button>
+<body>
+    <!-- <a class="back_to_top" title="Наверх">↑</a> -->
+    <a href="#" id="toTop">
+        <svg width="10pt" height="10pt" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <g>
+                <g>
+                    <path d="M489.229,442.468L254.563,37.135c-3.797-6.592-14.677-6.592-18.453,0L1.443,442.468c-1.92,3.307-1.92,7.36-0.021,10.667
+                c1.92,3.307,5.44,5.333,9.259,5.333h469.333c3.819,0,7.339-2.027,9.259-5.333C491.128,449.849,491.128,445.775,489.229,442.468z"/>
+                </g>
+            </g>
+        </svg>
+    </a>
+    <!-- Блок хедер меню! -->
+    <header class="heder" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#main" class="nav__link btn btn-three">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#aboutMe" class="nav__link btn btn-three">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link btn btn-three">Skills/Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link btn btn-three">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link btn btn-three">Contacts</a>
+                    </li>
+                </ul>
+                <hr>
+            </div>
+        </nav>
+    </header>
+    <!-- блок основной информации -->
+    <main class="main container" id="main">
+        <!-- блок красткой информации про меня -->
+        <div class="main__wrapper">
+            <div class="wrapper__photo">
+                <h1 class="name">Evgeny <br> Volkov</h1>
+                <img src="./img/photo1.jpg" alt="Me">
+            </div>
+            
+            <div class="wrapper__profession">
+                <p>Junior Front-end developer<br> 28 years old, Vitebsk</p>
+            </div>
+            <div class="ru-en">
+                <a href="#" class="ru">Ru</a>
+                <a href="#" class="en">En</a>
+            </div>
         </div>
-    </div>
+    </main>
+    <!-- секция о моих целях -->
+    <section class="about-me" id="aboutMe">
+        <h2>About me</h2>
+        <div class="text-container">
+            <p>The first and main goal is to become an experienced web developer. I really want to work in a team of professionals under experienced mentors, on really cool projects. 
+            </p>
+            <p>
+                I’m learning pretty fast. I’m good at performance, I’m stressful, and I’m punctual. I’m willing to take on new projects and get things to the logical end.
+            </p>
+            <p>
+                I work well as a team, I know how to solve conflicts and compromise responsibly. I spend my free time with my friends or study the great and powerful JS. Single.
+            </p>
+        </div>
+    </section>
+    <!-- секция описывающая мои скилы и выполненные проекты -->
+    <section class="Skills" id="skills">
+        <div class="Skills__container container">
+            <h2>Skills</h2>
+            <div class="skills__logo">
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <img src="./icons/figma-logo.svg" alt="figma">
+                        <p>Figma</p>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./icons/HTML 5.svg" alt="html">
+                        <p>HTML</p>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./icons/css3.svg" alt="CSS3">
+                        <p>CSS3</p>
+                    </li>
+                    <li class="skills__item">
+                        <img src="./icons/javascript.svg" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </li>
+                </ul>
+            </div>
+            <h2 class="industry__title">Industry Knowledge</h2>
+            <div class="industry">
+                <ul class="industry__list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>CSS preprocessors SCSS/SASS</li>
+                    <li>Adaptive layout</li>
+                    <li>Figma</li>
+                    <li>Basic knowledge of JS</li>
+                    <li>Windows</li>
+                    <li>Windows server</li>
+                    <li>Linux</li>
+                </ul>
+            </div>
+            <h2>My projects</h2>
+            <div class="projects">
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="Me Projects">
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <a href="#">
+                            <img src="./icons/projects.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- секция опыт и обучение -->
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="experience__wrapper container">
+        <!-- Кастомная полоска Тайм-Лайна -->
+            <ul class="timeline">
+                <!-- Левая панель! -->
+                <li>
+                    <div class="timeline-badge">
+                    <a><i class="fa fa-circle" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>NPP “Belkotlomash” ООО</h4>
+                            <h6>System administrator</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Created from scratch the entire network architecture of the enterprise was engaged in the procurement and maintenance of PC users and other peripherals</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2012-2021 year</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Правая панель! -->
+                <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                        <a><i class="fa fa-circle invert" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>ООО “BelBoilerTreid” and
+                                NPP “Belkotlomash” ООО </h4>
+                                <h6>System administrator</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Сreation and support of remote work of three offices in three different cities. Domain setup based on VMWare support and development of internal software of enterprises configuring and maintaining virtualization clusters</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2017-2021 year</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="education">
+        <h2>Education</h2>
+        <div class="education__wrapper container">
+        <!-- Кастомная полоска Тайм-Лайна -->
+            <ul class="timeline">
+                <!-- Левая панель! -->
+                <li>
+                    <div class="timeline-badge">
+                    <a><i class="fa fa-circle" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Vitebsk State Polytechnic College</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Information technology software</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2016-2018 year</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Правая панель! -->
+                <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                        <a><i class="fa fa-circle invert" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>Softline</h4>
+                            <h6>Windows server 2012 - 2019</h6>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Graduated from the course on setting up and maintaining windows server</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2020 year</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Левая панель! -->
+                <li>
+                    <div class="timeline-badge">
+                    <a><i class="fa fa-circle" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>CodeAcademy</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>HTML / CSS Basics</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2020 year</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- Правая панель! -->
+                <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                        <a><i class="fa fa-circle invert" id=""></i></a>
+                    </div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4>RsSchool</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>RsSchool stage0</p>
+                        </div>
+                        <div class="timeline-footer">
+                            <p class="text-right">2021 year</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="footer__wrapper container">
+            <h2>Contacts</h2>
+            <span>Want to know more or just chat? 
+                You are welcome!</span>
+            <div class="button">
+                <a href="https://t.me/skippik" class="btn btn-three">Send message
+                </a>
+            </div>
+            <div class="contacts">
+                <div class="email">
+                    <img src="../icons/mail.svg" alt="Email" class="email_logo">
+                    <a href="#" class="email_main">Skippik1111@gmail.com</a>
+                </div>
+                <div class="phone">
+                    <img src="../icons/phone.svg" alt="Phone" class="email_logo">
+                    <a href="#" class="phone_main">+375 29 129 08 91</a>
+                </div>
+                <div class="web_site">
+                    <img src="../icons/website.svg" alt="website" class="web_logo">
+                    <a href="https://github.com/Skippik" class="web_main">github.com/Skippik</a>
+                </div>
+                <div class="social_networks">
+                    <ul>
+                        <li>
+                            <!-- <span class="instagram">Instagram</span> -->
+                            <a href="https://www.instagram.com/skippik_volkov/?hl=ru" target="_blank" class="socia_main">
+                                <img src="../icons/instagram.png" alt="instagram" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <span class="skype">Skype</span> -->
+                            <a href="https://join.skype.com/invite/BfTBJFrZV7rD" target="_blank" class="socia_main">
+                                <img src="../icons/skype.png" alt="skype" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <span class="telegram">Telegram</span> -->
+                            <a href="https://t.me/skippik" target="_blank" class="socia_main">
+                                <img src="../icons/telegram.png" alt="telegram" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <span class="viber">Viber</span> -->
+                            <a href="viber://chat?number=%2B375291290891" target="_blank" class="socia_main">
+                                <img src="../icons/viber.png" alt="Viber" class="socia_logo">
+                            </a>
+                        </li>
+                        <li>
+                            <!-- <span class="VK">VK</span> -->
+                            <a href="https://vk.com/skippik0293" target="_blank" class="socia_main">
+                                <img src="../icons/vk.png" alt="VK" class="socia_logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="RSSchool">
+                <a href="https://rs.school/js/"><img src="./icons/rs_school_js.svg" alt="Logo"></a>
+                <span>Evgeny Volkov 2021 year</span>
+            </div>
+    </footer>
 </body>
 </html>

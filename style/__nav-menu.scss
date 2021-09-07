@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav__menu {
+    width: 1320px;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    & hr {
+        border: 1px solid #828282;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        margin: 0;
+    }
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        & li {
+            list-style: none;
+            transition: transform 0.3s;
+        }
+        & li:hover {
+            transform: scale(1.2);
+            transition: transform border 0.3s;
+        }
+        & a {
+            transition: border 0.3s;
+            font-family: $textFont;
+            font-size: 18px;
+            line-height: 22px;
+            color: $tetxColor;
+            text-decoration: none;
+        }
+    }
+}
+
+
