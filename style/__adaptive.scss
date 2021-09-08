@@ -4,9 +4,28 @@
     }
 }
 
+@media(max-width: 758px) {
+    .experience {
+        & .box-experience{
+            width: 100%;
+            max-width: 300px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
+
+
 @media(max-width: 767px) {
 .home .home-content .block h1 {
     font-size: 40px;
+}
+
+.menu__icon {
+    display: none;
 }
 
 .home .home-content .block h3 {

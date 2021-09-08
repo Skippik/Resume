@@ -260,9 +260,30 @@ header .row {
   }
 }
 
+@media (max-width: 758px) {
+  .experience .box-experience {
+    width: 100%;
+    max-width: 300px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 @media (max-width: 767px) {
   .home .home-content .block h1 {
     font-size: 40px;
+  }
+  .menu__icon {
+    display: none;
   }
   .home .home-content .block h3 {
     font-size: 25px;
@@ -1074,6 +1095,7 @@ header .row {
   background-color: #fff;
   width: 100%;
   max-width: 270px;
+  min-height: 300px;
   margin-bottom: 30px;
   border: 1px solid #eee;
   border-radius: 5px;
