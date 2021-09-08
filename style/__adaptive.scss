@@ -1,0 +1,231 @@
+@media(max-width: 991px) {
+    .block h1 {
+        font-size: 50px;
+    }
+}
+
+@media(max-width: 767px) {
+.home .home-content .block h1 {
+    font-size: 40px;
+}
+
+.home .home-content .block h3 {
+    font-size: 25px;
+}
+
+
+header {
+    padding: 15px;
+    position: fixed;
+    background-color: rgb(236, 241, 250);
+    border-bottom: 1px solid #eee;
+}
+
+.about .img {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.service-content .box {
+    padding: 30px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.gallery .item {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    padding: 8px;
+}
+
+.message .container .row .message-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.message .button {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: left;
+
+}
+
+.blog-content {
+    padding: 40px 20px;
+}
+
+.blog-content .blog-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    padding: 20px;
+}
+
+.contact-form .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+}
+
+@media(max-width: 655px) {
+    .home-block {
+        & h6 {
+            color: #253846;
+        }
+        & h1 {
+            color: #253846;
+        }
+        & h3 {
+            color: #253846;
+        }
+    }
+    .about_me-container {
+        display: flex;
+        flex-direction: column;
+        & .title {
+            text-align: center;
+        }
+        & .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            & .about-me_text {
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            & .text {
+                padding: 0;
+                max-width: 100%;
+                justify-content: center;
+                align-items:center;
+            }
+            & img {
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+            & h4 {
+                text-align: center;
+            }
+            & h6 {
+                text-align: center;
+            }
+        }
+        & .skills {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: center;
+        }
+        & .contacts {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+    }
+
+
+
+    .education-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        & .box {
+            width: 300px;
+            margin-right: 0;
+        }
+    }
+
+    .experience-content {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        & .box-experience {
+            height: 410px;
+            margin-right: 0;
+        }
+    }
+
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        & .portfolio-box {
+            max-width: calc(90% - 20px);
+        }
+    }
+
+}
+
+@media(max-width: 653px) {
+    header {
+        height: 80px;
+    }
+    .navbar {
+        display: none;
+    }
+} 
+
+
+
+@media(max-width: 500px) {
+.home .home-content .block {
+    padding-left: 20px;
+}
+
+.home .home-content .block h1 {
+    font-size: 30px;
+}
+
+.home .home-content .block h3 {
+    font-size: 15px;
+}
+
+.about .about-content .social a {
+    margin: 0px 3px;
+}
+
+.gallery .item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.testimonials-box .testimonials-img {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.testimonials-img .test-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+}
+
+@media(max-width: 376px) {
+    .contacts {
+        width: 100%;
+        max-width: 340px;
+    }
+    .full-screen {
+        justify-content: center;
+        align-items:flex-start;
+    }
+} 

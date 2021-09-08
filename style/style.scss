@@ -1,75 +1,40 @@
-@font-face {
-	font-family: 'Gilroy-Bold';
-	src: url('../fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+html {
+    scroll-behavior: smooth;
 }
 
-@font-face {
-	font-family: 'Gilroy-Medium';
-	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(236, 241, 250);
 }
-
-$tetxColor: #070707;
-$containerColor: #F6F6F6;
-$textFont: Gilroy-Medium;
-$textFontBold: Gilroy-Bold;
-
 
 * {
-    font-family: 'Khula', sans-serif;
-	// scroll-behavior: smooth;
-}
-
-h1 {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0;
 }
 
-h2 {
-	font-family: $textFontBold;
-	font-size: 34px;
-	line-height: 42px;
-	text-align: center;
-	color: $tetxColor;
-    margin: 0;
-    padding: 0;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-	font-family: $textFont;
-	font-size: 14px;
-	line-height: 22px;
-	text-align: center;
-	color: $tetxColor;
-    margin: 0;
-    padding: 0;
+a {
+    text-decoration: none;
+    font-size: 15px;
 }
 
 
 
 
-@import './_button';
-@import './_nav-menu';
-@import './_main-profession';
+
+@import './_header';
+@import './_main';
+@import './_adaptive';
+@import './_hamburger';
+@import './_home';
 @import './_about-me';
-@import './_skills';
-@import './_experience';
 @import './_education';
-@import './_timeLine';
+@import './_experience';
+@import './_portfolio';
 @import './_footer';
-@import './_adaptiv';
-@import './_burger-menu';

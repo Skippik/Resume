@@ -1,32 +1,178 @@
 .about-me {
-    height: 100%;
-    height: 380px;
+    padding: 100px 15px;
+    background-color: rgb(97, 103, 112);
+}
+  
+.img {
+    max-width: 50%;
+}
+  
+.img img {
+  max-height: 95%;
+  max-width: 61%;
+  border-radius: 4px;
+  display: block;
+}
+  
+  .text {
+    max-width: 50%;
+    padding-left: 30px;
+  }
+  
+  .text h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 10px;
+    color: #000;
+  }
+  
+  .text h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 25px;
+    color: #000;
+  }
+  
+  .text h6 span {
+    color: #253846;
+    position: relative;
+  }
+  
+  .text h6 span::before {
+    content: "";
+    left: 0;
+    right: 90%;
+    position: absolute;
+    height: 2px;
+    bottom: 0px;
+    transition: all 0.5s ease;
+  }
+  
+  .text h6 span:hover::before {
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 2px;
+    background-color: #fff;
+    bottom: 0px;
+  }
+  
+  .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+  }
+  
+  .skills {
+    padding: 10px 0px;
+  }
+  
+  .skills h6 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 25px;
+    color: #000;
+  }
+  
+  .skills-list {
+    width: 300px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .fa-ul li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .fa-ul .fa-li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+.contacts {
+    width: 100%;
+    display: flex;
     align-items: center;
-    background: #F6F6F6;
-    padding-top: 30px;
-    & h2 {
+}
+
+.social_networks {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    & ul {
+        margin: 0;
+        padding: 0;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items:center;
+        & li {
+            padding-right: 32px;
+        }
+        & li:last-child {
+            padding-right: 0;
+        }
     }
-    & .text-container {
-        display: flex;
-        flex-direction: column;
-        max-width: 485px;
-        max-height: 220px;
-    }
-    & p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: $textFont;
-        font-size: 18px;
-        line-height: 22px;
-        text-align: center;
-        color: $tetxColor;
-        margin-bottom: 20px;
-    }
+}
+
+.socia_main {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.socia_logo {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s;
+}
+
+.email:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #253846;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.phone:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #253846;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.web_site:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    background: #253846;
+    transition: transform 0.5s, 
+    background 0.5s;
+}
+
+.social_networks ul li:hover span {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.5s ease-in-out;
+    z-index: 1;
+    transition: visibility 0.5s;
+}
+
+.socia_logo:hover {
+    opacity: 1;
+    transform: scale(1.6);
+    transition: transform 0.5s, 
+    background 0.5s;
 }

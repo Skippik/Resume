@@ -1,16 +1,77 @@
 .education {
-    height: 100%;
-    height: 406px;
+    background-color: rgb(236, 241, 250);
+    padding: 100px 15px 70px;
+    border-top: #242830;
+}
+
+.education .container .row .title h1::before {
+    left: 30%;
+}
+
+.education-content {
+    flex: 0 0 100%;
+    max-width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 80px;
-    & h2 {
-        margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #fff;
+    width: 100%;
+    max-width: 270px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    & a {
+        font-size: 14px;
+        color: #616770;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: inline-block;
+        border-bottom: 2px solid #616770;
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease;
     }
-    &__wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.box::before {
+    content: "";
+    height: 2px;
+    background-color: #242830;
+    position: absolute;
+    bottom: 0px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+
+.box:hover::before {
+    width: 100%;
+}
+
+.box h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+}
+
+.box p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 5px 0 10px;
 }
