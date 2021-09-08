@@ -4,22 +4,52 @@
     }
 }
 
-@media(max-width: 758px) {
-    .experience {
-        & .box-experience{
+@media(max-width: 786px) {
+    .education-content {
+        margin: 0 auto;
+        & .box {
             width: 100%;
-            max-width: 300px;
-            height: 600px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
+            max-width: 350px;
+            height: 300px;
         }
     }
-
 }
 
 
 @media(max-width: 767px) {
+    .navbar {
+        position: absolute;
+        background-color: rgb(236, 241, 250);
+        width: 100%;
+        left: 0px;
+        top: 60px;
+        padding: 15px;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+        display: none;
+}
+
+    .show {
+        display: block;
+    }
+    
+    
+    .navbar ul li {
+        display: block;
+        margin-left: 0;
+    
+}
+    
+    .navbar ul li a {
+        line-height: 42px;
+        color: #01143e;
+}
+    
+    .navbar ul li a::before {
+        bottom: -3px;
+        background-color: #01143e;
+}
+
 .home .home-content .block h1 {
     font-size: 40px;
 }
@@ -52,49 +82,39 @@ header {
     padding-top: 30px;
 }
 
-.service-content .box {
-    padding: 30px;
-    flex: 0 0 100%;
-    max-width: 100%;
+.education-content {
+    & .box {
+        width: 100%;
+        max-width: 340px;
+        height: 300px;
+    }
 }
 
-.gallery .item {
-    flex: 0 0 50%;
-    max-width: 50%;
-    position: relative;
-    padding: 8px;
+.experience-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & .box {
+        width: 100%;
+        max-width: 470px;
+        height: 100px;
+    }
 }
-
-.message .container .row .message-text {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.message .button {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: left;
 
 }
 
-.blog-content {
-    padding: 40px 20px;
-}
+@media(max-width: 758px) {
+    .experience {
+        & .box-experience{
+            width: 100%;
+            max-width: 300px;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
 
-.blog-content .blog-box {
-    flex: 0 0 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-
-.contact-form {
-    padding: 20px;
-}
-
-.contact-form .col-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
 }
 
 @media(max-width: 655px) {
@@ -197,9 +217,9 @@ header {
     header {
         height: 80px;
     }
-    .navbar {
-        display: none;
-    }
+    // .navbar {
+    //     display: none;
+    // }
 } 
 
 
