@@ -1,12 +1,13 @@
 .experience {
     background-color: rgb(97, 103, 112);
     padding: 100px 15px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     & .box {
         background-color: #fff;
-        // flex: 0 0 calc(50% - 20px);
-        // max-width: calc(50% - 20px);
         width: 100%;
-        max-width: 270px;
+        max-width: 470px;
         min-height: 300px;
         margin-bottom: 30px;
         border: 1px solid #eee;
